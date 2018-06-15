@@ -252,4 +252,264 @@ body {
     color: white;
 }
 
+
+/* SECTION CARDS */
+
+#section-cards h2 {
+    text-align: center;
+}
+
+
+#section-cards {
+    padding: 5rem 0;
+}
+
+
+.card {
+    margin-top: 3rem;
+}
+
+.card-block {
+    margin-top: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.card-text {
+    text-align: left;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.card img {
+    height: 180px;
+    width: 100%;
+    transition: 1s;
+}
+
+.card img:hover {
+    transform: scale(0.95);
+    transition: 1s;
+}
+
+.card a {
+    color: rgba(19, 128, 36, 0.90);
+}
+
+
+.card a:hover {
+    color: rgb(19, 128, 36);
+}
+
+/* SECTION TESTIMONIALS */
+
+.section-testimonials {
+    padding-top: 5rem;
+    background-color: white;
+}
+
+.testimonial {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+
+
+}
+
+.testimonial-frame {
+    padding-bottom: 5rem;
+    border: 1px solid rgba(19, 128, 36, 0.89);
+
+
+}
+
+.lucas-img,
+.tommy-img,
+.sandra-img,
+.tobias-img {
+    width: 135px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.lucas-img:hover,
+.tommy-img:hover,
+.sandra-img:hover,
+.tobias-img:hover {
+    transition: 0.5s;
+    transform: scale(0.95);
+}
+
+blockquote {
+    font-family: 'Nunito-Regular';
+}
+
+.fa.fa-quote-right {
+    margin-right: 10px;
+}
+
+.testimonials-hr {
+    width: 260px;
+    border-top: 1px solid rgba(19, 128, 36, 1);
+    background-color: rgba(19, 128, 36, 1);
+}
+
+/* SECTION CONTACT*/
+
+.section-contact {
+    background: url('../img/pattern.jpg') center center;
+    padding: 10rem 0;
+}
+
+.section-contact {
+    background-color: white;
+    padding: 10rem 0;
+}
+
+#contact .control-label {
+    font-size: 20px;
+    line-height: 80%;
+    width: 30%;
+    margin-top: 10px;
+    float: left
+}
+
+.form-control {
+    width: 70%;
+    font-size: 18px;
+    float: right;
+}
+
+.form-horizontal {
+    padding-top: 5rem;
+}
+
+.form-group {
+    padding-bottom: 3rem;
+}
+
+.human-block {
+    margin-top: 3rem;
+}
+
+textarea:focus,
+input:focus {
+    border-color: rgba(19, 128, 36, 0.53) !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 1px rgba(231, 76, 60, 0.05) !important;
+}
+
+#contact .btn.btn-success {
+    background-color: rgba(19, 128, 36, 1);
+    border: 1px solid rgba(19, 128, 36, 1);
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 5rem;
+    margin-right: 8rem;
+    transition: 0.5s;
+    float: right;
+}
+
+#contact .btn.btn-success:hover {
+    background-color: rgba(19, 128, 36, 0.9);
+    border: 1px solid rgba(19, 128, 36, 1);
+    transition: 0.5s;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #222;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+    margin-top: 45px;
+    padding-left: 0px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+    padding-right: 25px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    font-size: 150%;
+    transition: 0.2s;
+}
+
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-twitter-square:hover {
+    color: #00aced;
+}
+
+.fa-google-plus-square:hover {
+    color: #dd4b39;
+}
+
+.fa-instagram:hover {
+    color: #517fa4;
+}
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-google-plus-square,
+.fa-instagram {
+    transition: 0.2s;
+}
+
+footer #copyright-text {
+    color: #888;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 18px;
+}
+
+footer #copyright-text p {
+    margin-bottom: auto;
+}
+
+.fa-crow {
+    color: gold;
+}
+
+.fa-crow:hover {
+    color: black;
+}
+
+.fa-star {
+    color: rgb(14, 96, 27);
+    transition: 0.2s;
+}
+
+.fa-chevron-circle-up {
+    margin-top: 45px;
+    color: rgb(14, 96, 27);
+    transition: 0.2s;
+}
+
+.fa-chevron-circle-up:hover {
+    color: rgba(14, 96, 27, 0.92);
+    transition: 0.2s;
+}
+
 .container {}
